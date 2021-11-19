@@ -29,8 +29,8 @@ if os.path.isfile(dotenv_file):
 SECRET_KEY = os.environ['SECRET_KEY']
 #'django-insecure-vqnfb_)=lkkj_h9_763j)%q^2hj#$as$0f^#4$c5dqu6@)p$=='   
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'womenhelpline.herokuapp.com']
+DEBUG = False
+ALLOWED_HOSTS = ['127.0.0.1', 'womenhelpline1.herokuapp.com']
 
 
 # Application definition
